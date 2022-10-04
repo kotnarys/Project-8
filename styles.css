@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ .brick{
+    background-color:pink;
+    color:black;
+
+    display: flex;
+    padding: 25px;
+ }
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+}
+
+ h2{
+    padding-right: 25px;
+    font-size: 20px;
+ }
+ 
+ .vputi{
+    background-color:#336FD1;
+    display: flex;
+    height: 150px;
+ }
+
+ h1{
+    color: orange;
+
+    margin: 0 auto;
+    font-size: 70px;
+}
+
+.footer{
+    color:white;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    background-image: url(background.png);
+    height: 643px;
+}
+
+form{
+    margin: 90px;
+}
+
+.polya{    
+    border-style: solid;
+    border-radius: 25px;
+    width: 270px;
+    
+    background-color:pink;
+    color:white;
+    
+}
+
+
+.forms{
+    margin: 30px;
+}
+
+.send{
+    background:orange;
+
+    border-style:solid;
+    border-radius:25px;
+    border-color: white;
+
+    display: flex;
+    justify-content: center;
+     
+}
+
+button{
+    color:white;
+    background-color:orange;
+    border-style:none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .forms input, .forms select {
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+    border-bottom: 1px solid #fff;; 
+    
+    background-color: pink;
+    color: white;
+
+    width: 100%;
+
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 5px;
+  }
